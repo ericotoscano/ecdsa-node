@@ -1,16 +1,20 @@
 # ECDSA Node
 
-Esse projeto faz parte das atividades desenvolvidas no Ethereum Developer Bootcamp, Alchemy University. Seu desenvolvimento completa a primeira semana de estudos e tem por objetivo solidificar conhecimentos básicos sobre transferências de ativos entre endereços, utilizando criptografia de chave pública e assinaturas digitais de curvas elípticas. 
+Esse projeto faz parte das atividades desenvolvidas no [Ethereum Developer Bootcamp](https://www.alchemy.com/university/courses/ethereum), disponibilizado pela [Alchemy University](https://www.alchemy.com/university). Seu desenvolvimento completa a primeira semana de estudos e tem por objetivo solidificar conhecimentos básicos sobre transferências de ativos entre endereços, utilizando **_criptografia de chave pública_** e **_assinaturas digitais por meio de curvas elípticas_**. 
 
-Uma vez que o foco da atividade é a utilização da criptografia na realização de transferências, a aplicação utiliza um servidor simples no back-end, em um ambiente centralizado.
+Uma vez que o foco da atividade é a utilização da criptografia na realização de transferências, a aplicação utiliza-se de um _servidor simples_ no **back-end**, em um _ambiente centralizado_. Entretanto, os conceitos criptográficos aplicados servem de base para compreensão do funcionamento de transações em **redes descentralizadas**, como o próprio [Ethereum](https://ethereum.org/pt-br/). 
+
+## Começando
+
+Para obter uma cópia do projeto em sua máquina local, faça a clonagem deste repositório através de um terminal na sua máquina, utilizando o comando:
+
+`git clone https://github.com/ericotoscano/ecdsa-node.git`
 
 ## Instalação
 
-Após clonar o repositório,
+### Cliente
 
-### Client
-
-The client folder contains a [react app](https://reactjs.org/) using [vite](https://vitejs.dev/). To get started, follow these steps:
+A pasta "client" contém uma aplicação [React](https://reactjs.org/), usando o [Vite](https://vitejs.dev/). To get started, follow these steps:
 
 1. Open up a terminal in the `/client` folder
 2. Run `npm install` to install all the depedencies
