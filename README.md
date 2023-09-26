@@ -6,13 +6,13 @@ Uma vez que o foco da atividade é a utilização da criptografia na realizaçã
 
 ## Começando
 
-Para obter uma cópia do projeto em sua máquina local, faça a clonagem deste repositório através do terminal, utilizando o comando:
+Para obter uma cópia do projeto em sua máquina, faça a _clonagem_ deste repositório através do **terminal**, utilizando o comando:
 
 `git clone https://github.com/ericotoscano/ecdsa-node.git`
 
 ## Estrutura dos Arquivos
 
-Após a clonagem deste repositório, a estrutura dos arquivos será a seguinte:
+Após a _clonagem_ deste repositório, a estrutura dos arquivos será a seguinte:
 
 ![Estrutura dos arquivos do repositório clonado](/assets/img/folders.jpg)
 
