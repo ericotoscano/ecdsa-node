@@ -6,37 +6,57 @@ Uma vez que o foco da atividade é a utilização da criptografia na realizaçã
 
 ## Começando
 
-Para obter uma cópia do projeto em sua máquina local, faça a clonagem deste repositório através de um terminal na sua máquina, utilizando o comando:
+Para obter uma cópia do projeto em sua máquina local, faça a clonagem deste repositório através do terminal, utilizando o comando:
 
 `git clone https://github.com/ericotoscano/ecdsa-node.git`
 
-## Instalação
+## Estrutura dos Arquivos
 
 Após a clonagem deste repositório, a estrutura dos arquivos será a seguinte:
 
-<img src="/assets/img/folders.jpg>
+![Estrutura dos arquivos do repositório clonado](/assets/img/folders.jpg)
+
+Uma breve descrição dos conteúdos é feita nas seções a seguir:
+
+<details>
+<summary>.vscode</summary>
+
+Contém o arquivo [_launch.json_](/.vscode/launch.json), utilizado pelo [VsCode](https://code.visualstudio.com/) para configurar e personalizar o _depurador_.
+
+</details>
+
+## Instalação
+
+### Servidor
+
+A pasta _server_ contém um servidor [Node.js](https://nodejs.org/pt-br), usando o [Express](https://expressjs.com/). Para iniciar o servidor, siga os passos a seguir:
+
+1. Abra o terminal na pasta `/server` 
+2. Execute o comando `npm install` para instalar todas as dependências 
+3. Execute o comando `node index` ou `nodemon index` para iniciar o servidor 
+
+_A aplicação deve conectar-se automaticamente à porta padrão do servidor (3042)._ 
 
 ### Cliente
 
-A pasta _client_ contém uma aplicação [React](https://reactjs.org/), usando o [Vite](https://vitejs.dev/). To get started, follow these steps:
+A pasta _client_ contém uma aplicação [React](https://reactjs.org/), usando o [Vite](https://vitejs.dev/). Para iniciar a aplicação, siga os passos a seguir:
 
-1. Open up a terminal in the `/client` folder
-2. Run `npm install` to install all the depedencies
-3. Run `npm run dev` to start the application 
-4. Now you should be able to visit the app at http://127.0.0.1:5173/
+1. Abra o terminal na pasta `/client`
+2. Execute o comando `npm install` para instalar todas as dependências
+3. Execute o comando `npm run dev` para iniciar a aplicação
+4. Se não houver erros, a aplicação estará disponível em http://127.0.0.1:5173/
 
-### Server
+## Funcionalidades
 
-The server folder contains a node.js server using [express](https://expressjs.com/). To run the server, follow these steps:
+## Implementações Futuras
 
-1. Open a terminal within the `/server` folder 
-2. Run `npm install` to install all the depedencies 
-3. Run `node index` to start the server 
+- Melhoramentos em UX/UI;
+- Adição de Testes automatizados;
 
-The application should connect to the default server port (3042) automatically! 
+## Autores
 
-_Hint_ - Use [nodemon](https://www.npmjs.com/package/nodemon) instead of `node` to automatically restart the server on any changes.
-### Video instructions
+<!-- ### Video instructions
 For an overview of this project as well as getting started instructions, check out the following video:
 
 https://www.loom.com/share/0d3c74890b8e44a5918c4cacb3f646c4
+-->
