@@ -6,16 +6,31 @@
 ## Índice
 
 * [Descrição do Projeto](#descrição-do-projeto)
+* [Tecnologias Utilizadas](#tecnologias-utilizadas)
 * [Começando](#começando)
 * [Estrutura dos Arquivos](#estrutura-dos-arquivos)
 * [Instalação](#instalação)
 * [Funcionalidades](#funcionalidades)
 * [Implementações Futuras](#implementações-futuras)
+* [Licença](#licença)
+* [Contato](#contato)
 
 ## Descrição do Projeto
 Esse projeto faz parte das atividades desenvolvidas no [Ethereum Developer Bootcamp](https://www.alchemy.com/university/courses/ethereum), disponibilizado pela [Alchemy University](https://www.alchemy.com/university). Seu desenvolvimento completa a primeira semana de estudos e tem por objetivo solidificar conhecimentos básicos sobre transferências de ativos entre endereços, utilizando **_criptografia de chave pública_** e **_assinaturas digitais por meio do algoritmo de curvas elípticas_**.
 
 Uma vez que o foco da atividade é a utilização da criptografia na realização de transferências, a aplicação utiliza-se de um _servidor simples_ no **back-end**, em um _ambiente centralizado_. Entretanto, os conceitos criptográficos aplicados servem de base para compreensão do funcionamento de transações em **redes descentralizadas**, como o próprio [Ethereum](https://ethereum.org/pt-br/). 
+
+## Tecnologias Utilizadas
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
+
 ## Começando
 
 Para obter uma cópia do projeto em sua máquina, faça a _clonagem_ deste repositório através do **terminal**, utilizando o comando:
@@ -111,3 +126,13 @@ A pasta _client_ contém uma aplicação [React](https://reactjs.org/), usando o
 
 - Melhoramentos em UX/UI;
 - Adição de Testes automatizados;
+
+## Licença
+
+Distribuído sob a licença MIT (para maiores informações, acesse o arquivo [LICENSE](/LICENSE).
+
+## Contato
+
+Érico Toscano de Oliveira - [E-mail](dev.ericotoscano@gmail.com) - [LinkedIn](www.linkedin.com/in/érico-toscano-de-oliveira-0338b1208)
+
+_Link_ do Projeto: [https://github.com/ericotoscano/ecdsa-node](https://github.com/ericotoscano/ecdsa-node)
