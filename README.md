@@ -19,9 +19,31 @@ Após a _clonagem_ deste repositório, a estrutura dos arquivos será a seguinte
 Uma breve descrição dos conteúdos é feita nas seções a seguir:
 
 <details>
+  
 <summary>.vscode</summary>
+<br>
 
 Contém o arquivo [_launch.json_](/.vscode/launch.json), utilizado pelo [VsCode](https://code.visualstudio.com/) para configurar e personalizar o _depurador_.
+<br>
+</details>
+
+<details>
+<summary>client</summary>
+
+</details>
+
+<details>
+<summary>server</summary>
+
+</details>
+
+<details>
+<summary>LICENSE</summary>
+
+</details>
+
+<details>
+<summary>README.md</summary>
 
 </details>
 
@@ -60,5 +82,3 @@ For an overview of this project as well as getting started instructions, check o
 
 https://www.loom.com/share/0d3c74890b8e44a5918c4cacb3f646c4
 -->
-
-## Licença
