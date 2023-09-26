@@ -12,9 +12,13 @@ Para obter uma cópia do projeto em sua máquina local, faça a clonagem deste r
 
 ## Instalação
 
+Após a clonagem deste repositório, a estrutura dos arquivos será a seguinte:
+
+<img src="/assets/img/folders.jpg>
+
 ### Cliente
 
-A pasta "client" contém uma aplicação [React](https://reactjs.org/), usando o [Vite](https://vitejs.dev/). To get started, follow these steps:
+A pasta _client_ contém uma aplicação [React](https://reactjs.org/), usando o [Vite](https://vitejs.dev/). To get started, follow these steps:
 
 1. Open up a terminal in the `/client` folder
 2. Run `npm install` to install all the depedencies
