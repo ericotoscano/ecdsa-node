@@ -30,23 +30,48 @@ Contém o arquivo [_launch.json_](/.vscode/launch.json), utilizado pelo [VsCode]
 </details>
 
 <details>
-<summary>client</summary>
+  
+<summary>assets</summary>
+<br>
 
+Contém a pasta [_img_](/assets/img), cujo conteúdo são as imagens utilizadas neste arquivo [README](/README.md).
+<br>
+</details>
+
+<details>
+<summary>client</summary>
+<br>
+
+Contém arquivos e pastas relacionados ao _front-end_ (componentes [React](https://reactjs.org/) e arquivos do [Vite](https://vitejs.dev/)). 
+
+O arquivo [_server.js_](/client/src/server.js) cria uma nova instância do [Axios](https://axios-http.com/).
+<br>
 </details>
 
 <details>
 <summary>server</summary>
+<br>
 
+Contém arquivos e pastas relacionados ao _back-end_ (em destaque, o arquivo [_index.js_](/server/index.js) contém a API utilizada pelo _front-end_ do projeto).
+
+A pasta [_scripts_](/server/scripts) contém o arquivo [_generateusers.js_](/server/scripts/generateusers.js), que pode ser utilizado para gerar, randomicamente, os endereços dos usuários, suas respectivas chaves públicas e privadas, além dos seus respectivos saldos iniciais (100 unidades).
+<br>
 </details>
 
 <details>
 <summary>LICENSE</summary>
+<br>
 
+Arquivo com o texto da licença _open source_ do projeto.
+<br>
 </details>
 
 <details>
 <summary>README.md</summary>
+<br>
 
+Arquivo [README](/README.md) do projeto.
+<br>
 </details>
 
 ## Instalação
@@ -76,11 +101,3 @@ A pasta _client_ contém uma aplicação [React](https://reactjs.org/), usando o
 
 - Melhoramentos em UX/UI;
 - Adição de Testes automatizados;
-
-## Autores
-
-<!-- ### Video instructions
-For an overview of this project as well as getting started instructions, check out the following video:
-
-https://www.loom.com/share/0d3c74890b8e44a5918c4cacb3f646c4
--->
