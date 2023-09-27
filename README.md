@@ -148,7 +148,7 @@ A aplicação permite apenas que os endereços disponíveis sejam *copiados* e *
 
 Para efetuar uma transferência, ao clicar no botão *Transfer*, o endereço do *sender* deve ser o mesmo que está *colado* no campo *Address* da carteira.   
 
-Efetuando a transferência e checando o saldo do *sender*:
+Efetuando a transferência e checando o saldo do *sender* após a transferência:
 
 <img src="/assets/img/exec-transfer.jpg">
 
