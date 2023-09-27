@@ -168,7 +168,7 @@ Caso o endereço *colado* no campo *Address* da carteira não seja o mesmo que o
 
 - Melhoramentos em UX/UI.
 - Adição de Testes automatizados.
-- Documentar *endpoints* da API.
+- Documentação dos endpoints da API no servidor.
 
 ## Licença
 
