@@ -133,6 +133,9 @@ Distribuído sob a licença MIT (para maiores informações, acesse o arquivo [L
 
 ## Contato
 
-Érico Toscano de Oliveira - [E-mail](dev.ericotoscano@gmail.com) - [LinkedIn](www.linkedin.com/in/érico-toscano-de-oliveira-0338b1208)
+<img align="left" src="/assets/img/me.png" width="73px" alt="Érico Toscano de Oliveira">
 
-_Link_ do Projeto: [https://github.com/ericotoscano/ecdsa-node](https://github.com/ericotoscano/ecdsa-node)
+**Érico Toscano de Oliveira**
+
+[![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deverico.toscano@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/érico-toscano-de-oliveira-0338b1208)
