@@ -2,7 +2,7 @@ const { secp256k1 } = require('ethereum-cryptography/secp256k1');
 const { keccak256 } = require('ethereum-cryptography/keccak');
 const { toHex } = require('ethereum-cryptography/utils');
 
-const generateUsers = (numOfUsers) => {
+const generateUsers = (numOfUsers=5) => {
   const users = [];
 
   for (let i = 0; i < numOfUsers; i++) {
@@ -28,3 +28,5 @@ const generateUsers = (numOfUsers) => {
 
   return users;
 };
+
+generateUsers();
