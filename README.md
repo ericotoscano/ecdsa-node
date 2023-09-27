@@ -127,7 +127,16 @@ A pasta _client_ contém uma aplicação [React](https://reactjs.org/), usando o
 
 Seguem algumas telas para apresentação de algumas funcionalidades do projeto:
 
-<label>Click me <img src="/assets/img/start.jpg></label>
+### Tela Inicial
+<img src="/assets/img/start.jpg">
+### Tela Inicial
+<img src="/assets/img/start.jpg">
+### Tela Inicial
+<img src="/assets/img/start.jpg">
+### Tela Inicial
+<img src="/assets/img/start.jpg">
+### Tela Inicial
+<img src="/assets/img/start.jpg">
 
 ## Implementações Futuras
 
