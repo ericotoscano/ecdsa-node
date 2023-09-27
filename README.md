@@ -144,16 +144,31 @@ A aplicação permite apenas que os endereços disponíveis sejam *copiados* e *
 
 <img src="/assets/img/balance-fail.jpg">
 
-### Tela Inicial
-<img src="/assets/img/start.jpg">
+### Transferindo Quantias entre Endereços
 
-### Tela Inicial
-<img src="/assets/img/start.jpg">
+Para efetuar uma transferência, ao clicar no botão *Transfer*, o endereço do *sender* deve ser o mesmo que está *colado* no campo *Address* da carteira.   
+
+Efetuando a transferência e checando o saldo do *sender*:
+
+<img src="/assets/img/exec-transfer.jpg">
+
+Checando o saldo do *recipient* após a transferência:
+
+<img src="/assets/img/exec-transfer2.jpg">
+
+Caso o endereço do *sender* não possua saldo suficiente para que a transação seja efetuada, será emitido o seguinte alerta:  
+
+<img src="/assets/img/transfer-fail2.jpg">
+
+Caso o endereço *colado* no campo *Address* da carteira não seja o mesmo que o endereço do *sender*, será emitido o seguinte alerta:  
+
+<img src="/assets/img/transfer-fail1.jpg">
 
 ## Implementações Futuras
 
 - Melhoramentos em UX/UI;
 - Adição de Testes automatizados;
+- Documentar *endpoints* da API;
 
 ## Licença
 
