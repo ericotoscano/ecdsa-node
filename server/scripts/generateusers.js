@@ -23,7 +23,7 @@ const generateUsers = (numOfUsers=5) => {
     console.log('\nprivate key:', toHex(privateKey));
     console.log('public key:', toHex(publicKey));
     console.log(`address: 0x${toHex(address)}`);
-    console.log(balance);
+    console.log(`balance: ${balance}`);
   }
 
   return users;

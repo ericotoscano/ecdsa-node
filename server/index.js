@@ -8,33 +8,33 @@ const { secp256k1 } = require('ethereum-cryptography/secp256k1');
 // Users Array created using "generateusers.js" on "server/scripts/"
 const users = [
   {
-    privatekey: '9522a36b01edf970b092237e5876ed6688f21da5278220b4477b947a6fd4a5e1',
-    publickey: '02f00e5f041df0c93a22d53dcd0748e94a68717f4cc1d52f34228df9d7f56c1023',
-    address: '0xa2f127ae22c2a4e5561647268b68f09edb1af6bd',
+    privatekey: 'c52974873e308e57898b0d1510361d8bd9ada0853549c9f034845b6a24a4334c',
+    publickey: '02987496114ba2ba938bb9012a048132bed83211047339b2749c5c43eeca63c827',
+    address: '0x873bef47d8afe1dbfc032e17ae538a8dbfa27b43',
     balance: 100,
   },
   {
-    privatekey: 'fe3765c9bc02e95ecbf4e7d9c4cc72e8c2ecebcbcda0fc06a980f999481c32aa',
-    publickey: '038afb2b8ccf364752cc80afdc44775d30ee25600b3e5667f4cf99cb98e366ac6f',
-    address: '0xecdd2dc4b96cf59760d3df6141cd4ed79da5e7d6',
+    privatekey: '17444b735a634399071d6d49f6af8f8ab02cb6de01d99d18c45847efe3538c30',
+    publickey: '02e3e186f8b36cf91c4859d20876ff57a732b8639fc2ff59f1daee4a81575afb7a',
+    address: '0x1aede1e32e289aa267f2db431084554ddd1d5586',
     balance: 100,
   },
   {
-    privatekey: '9005277a01976ad621a6ffd52b21aea454505549b5070e9521713eb457c4c2a0',
-    publickey: '03906ba2c9f77e048c05ea2b96cb3e3e79636d8e09bd15f04a295efd55003f8306',
-    address: '0xb0d72b41617f2aa755c63d110f9c8f72a9d8f5ec',
+    privatekey: 'e58fbc76b701e960feb223a616dbd42865f78198876e506d50384f413fcabbf2',
+    publickey: '02c588ab4f3ec56ee0076e17d4d5fe0df8d5ab4853f541a5da6467b16549883bde',
+    address: '0xe971196c329c2b469737f76fbc3204f3dfead623',
     balance: 100,
   },
   {
-    privatekey: '9837b81c8e6037837af53ef3be2531b68767719dad819e2c05a65f4c7c350074',
-    publickey: '02f74fc4214caa226ee1f467d491c7bf3aa5dd57b6577f73f5fe829a3efaca689d',
-    address: '0xb28fbcac9bea07db53711ebc335d23896479e4bf',
+    privatekey: 'a8721b522a2ac4d8d671bd6ced34886034a95ad0127e8f1711e585de3c1fed3d',
+    publickey: '03af28340a1d246dcd4f6c5523a2e00f4341f369a88fce2aeb9654a5bcf9568c9b',
+    address: '0x442e48da7d496118fd7690fffd38da6a105f30ad',
     balance: 100,
   },
   {
-    privatekey: 'e107aaaa9773bee16c52ef15a0f0ff3c0ee1c89027f6c94a64ec3077d55fb5ad',
-    publickey: '032a1303996442106a38e653ec9bc6b8856e5d9db7e96f6e4c653adedff2b097db',
-    address: '0x0f5dd77864a3022d7fb2f38421dbb5df6cad5b08',
+    privatekey: '1913f477d6c7a8b71343153d6e00be5e101335a60b4cb41a34fe645b707f5a06',
+    publickey: '02a4491fbbe94bab15b9404a4cf0a5f4b8ca631bbcb58e214bd06f38c252e74268',
+    address: '0x310bbac473df22c7335411083d259c9c9dd90bca',
     balance: 100,
   },
 ];
