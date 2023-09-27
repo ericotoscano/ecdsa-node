@@ -108,8 +108,7 @@ A pasta _server_ contém um servidor [Node.js](https://nodejs.org/pt-br), usando
 1. Abra o terminal na pasta `/server` 
 2. Execute o comando `npm install` para instalar todas as dependências 
 3. Execute o comando `node index` ou `nodemon index` para iniciar o servidor 
-
-_A aplicação deve conectar-se automaticamente à porta padrão do servidor (3042)._ 
+4. Se não houver erros a aplicação deve conectar-se automaticamente à porta padrão do servidor (3042) e exibir a mensagem *"Listening on port 3042!"* no terminal. 
 
 ### Cliente
 
@@ -120,7 +119,24 @@ A pasta _client_ contém uma aplicação [React](https://reactjs.org/), usando o
 3. Execute o comando `npm run dev` para iniciar a aplicação
 4. Se não houver erros, a aplicação estará disponível em http://127.0.0.1:5173/
 
-## Funcionalidades
+## Funcionalidades 
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+Seguem algumas telas para apresentação de algumas funcionalidades do projeto:
+
+### Tela Inicial
+<img src="/assets/img/start.jpg">
+### Tela Inicial
+<img src="/assets/img/start.jpg">
+### Tela Inicial
+<img src="/assets/img/start.jpg">
+### Tela Inicial
+<img src="/assets/img/start.jpg">
+### Tela Inicial
+<img src="/assets/img/start.jpg">
 
 ## Implementações Futuras
 
@@ -129,7 +145,7 @@ A pasta _client_ contém uma aplicação [React](https://reactjs.org/), usando o
 
 ## Licença
 
-Distribuído sob a licença MIT (para maiores informações, acesse o arquivo [LICENSE](/LICENSE).
+Distribuído sob a licença MIT (para maiores informações, acesse o arquivo [LICENSE](/LICENSE)).
 
 ## Contato
 
