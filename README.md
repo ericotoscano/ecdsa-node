@@ -140,7 +140,7 @@ Executando o arquivo [_generateusers.js_](/server/scripts/generateusers.js) para
 
 <img src="/assets/img/balance-ok.jpg">
 
-A aplicação permite apenas que os endereços disponíveis sejam *copiados* e *colados* no *input* da carteira. Caso o usuário tente *digitar* ou *colar* um endereço que não esteja disponível, será emitido o seguinte alerta e a aplicação limpará o *input* para nova tentativa:
+A aplicação permite apenas que os endereços disponíveis sejam *copiados* e *colados* no *input* da carteira. Caso o usuário tente *digitar* ou *colar* um endereço que não esteja disponível, será emitido o seguinte alerta:
 
 <img src="/assets/img/balance-fail.jpg">
 
