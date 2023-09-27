@@ -156,11 +156,11 @@ Checando o saldo do *recipient* após a transferência:
 
 <img src="/assets/img/exec-transfer2.jpg">
 
-Caso o endereço do *sender* não possua saldo suficiente para que a transação seja efetuada, será emitido o seguinte alerta:  
+Caso o endereço do *sender* não possua saldo suficiente para que a transação seja efetuada, a transferência *não* será efetuada e será emitido o seguinte alerta:  
 
 <img src="/assets/img/transfer-fail2.jpg">
 
-Caso o endereço *colado* no campo *Address* da carteira não seja o mesmo que o endereço do *sender*, será emitido o seguinte alerta:  
+Caso o endereço *colado* no campo *Address* da carteira não seja o mesmo endereço do *sender*, a transferência *não* será efetuada e será emitido o seguinte alerta:  
 
 <img src="/assets/img/transfer-fail1.jpg">
 
