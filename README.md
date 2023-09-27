@@ -105,19 +105,19 @@ Arquivo [README](/README.md) do projeto.
 
 A pasta _server_ contém um servidor [Node.js](https://nodejs.org/pt-br), usando o [Express](https://expressjs.com/). Para iniciar o servidor, siga os passos a seguir:
 
-1. Abra o terminal na pasta `/server` 
-2. Execute o comando `npm install` para instalar todas as dependências 
-3. Execute o comando `node index` ou `nodemon index` para iniciar o servidor 
+1. Abra o terminal na pasta `/server`. 
+2. Execute o comando `npm install` para instalar todas as dependências. 
+3. Execute o comando `node index` ou `nodemon index` para iniciar o servidor. 
 4. Se não houver erros a aplicação deve conectar-se automaticamente à porta padrão do servidor (3042) e exibir a mensagem *"Listening on port 3042!"* no terminal. 
 
 ### Cliente
 
 A pasta _client_ contém uma aplicação [React](https://reactjs.org/), usando o [Vite](https://vitejs.dev/). Para iniciar a aplicação, siga os passos a seguir:
 
-1. Abra o terminal na pasta `/client`
-2. Execute o comando `npm install` para instalar todas as dependências
-3. Execute o comando `npm run dev` para iniciar a aplicação
-4. Se não houver erros, a aplicação estará disponível em http://127.0.0.1:5173/
+1. Abra o terminal na pasta `/client`.
+2. Execute o comando `npm install` para instalar todas as dependências.
+3. Execute o comando `npm run dev` para iniciar a aplicação.
+4. Se não houver erros, a aplicação estará disponível em http://127.0.0.1:5173/.
 
 ## Funcionalidades 
 
@@ -129,7 +129,7 @@ Seguem algumas telas para apresentação de funcionalidades do projeto:
 
 ### Gerando os usuários
 
-Executando o arquivo [_generateusers.js_](/server/scripts/generateusers.js) para gerar os usuários da aplicação (as chaves expostas *não* são vinculadas a endereços reais da rede [Ethereum](https://ethereum.org/pt-br/))   
+Executando o arquivo [_generateusers.js_](/server/scripts/generateusers.js) para gerar os usuários da aplicação (as chaves expostas *não* são vinculadas a endereços reais da rede [Ethereum](https://ethereum.org/pt-br/)):   
 
 <img src="/assets/img/generateusers.jpg">
 
@@ -166,9 +166,9 @@ Caso o endereço *colado* no campo *Address* da carteira não seja o mesmo que o
 
 ## Implementações Futuras
 
-- Melhoramentos em UX/UI;
-- Adição de Testes automatizados;
-- Documentar *endpoints* da API;
+- Melhoramentos em UX/UI.
+- Adição de Testes automatizados.
+- Documentar *endpoints* da API.
 
 ## Licença
 
