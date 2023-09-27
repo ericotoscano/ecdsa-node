@@ -133,7 +133,7 @@ Executando o arquivo [_generateusers.js_](/server/scripts/generateusers.js) para
 
 <img src="/assets/img/generateusers.jpg">
 
-#### Tela Inicial
+### Tela Inicial
 <img src="/assets/img/start.jpg">
 
 ### Checando Saldo de um Endereço Disponível
