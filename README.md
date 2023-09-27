@@ -122,7 +122,7 @@ A pasta _client_ contém uma aplicação [React](https://reactjs.org/), usando o
 ## Funcionalidades 
 
 - [x] Gerar usuários fictícios de forma aleatória.
-- [x] Checar saldos dos endereços disponíveis.
+- [x] Checar o saldo de cada endereço disponível.
 - [x] Transferir quantias entre endereços disponíveis.
 
 Seguem algumas telas para apresentação de funcionalidades do projeto:
