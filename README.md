@@ -121,20 +121,32 @@ A pasta _client_ contém uma aplicação [React](https://reactjs.org/), usando o
 
 ## Funcionalidades 
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [x] Gerar usuários fictícios de forma aleatória.
+- [x] Checar saldos dos endereços disponíveis.
+- [x] Transferir quantias entre endereços disponíveis.
 
-Seguem algumas telas para apresentação de algumas funcionalidades do projeto:
+Seguem algumas telas para apresentação de funcionalidades do projeto:
+
+### Gerando os usuários
+
+Executando o arquivo [_generateusers.js_](/server/scripts/generateusers.js) para gerar os usuários da aplicação (as chaves expostas *não* são vinculadas a endereços reais da rede [Ethereum](https://ethereum.org/pt-br/))   
+
+<img src="/assets/img/generateusers.jpg">
+
+#### Tela Inicial
+<img src="/assets/img/start.jpg">
+
+### Checando Saldo de um Endereço Disponível
+
+<img src="/assets/img/balance-ok.jpg">
+
+A aplicação permite apenas que os endereços disponíveis sejam *copiados* e *colados* no *input* da carteira. Caso o usuário tente *digitar* ou *colar* um endereço que não esteja disponível, será emitido o seguinte alerta e a aplicação limpará o *input* para nova tentativa:
+
+<img src="/assets/img/balance-fail.jpg">
 
 ### Tela Inicial
 <img src="/assets/img/start.jpg">
-### Tela Inicial
-<img src="/assets/img/start.jpg">
-### Tela Inicial
-<img src="/assets/img/start.jpg">
-### Tela Inicial
-<img src="/assets/img/start.jpg">
+
 ### Tela Inicial
 <img src="/assets/img/start.jpg">
 
