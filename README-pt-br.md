@@ -6,7 +6,7 @@
 ## Idioma
 
 [!(/assets/img/brasil.png)](https://github.com/ericotoscano/ecdsa-node/edit/main/README-pt-br.md)
-[!(/assets/img/estados-unidos.png)](https://github.com/ericotoscano/ecdsa-node/edit/main/README-en.md)
+[!(/assets/img/estados-unidos.png)](https://github.com/ericotoscano/ecdsa-node/edit/main/README.md)
 
 ## Índice
 
