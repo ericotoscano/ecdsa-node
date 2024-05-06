@@ -1,4 +1,4 @@
-# ECDSA Node App
+#  Elliptic Curve Digital Signature Algorithm (ECDSA) Node App
 ![Static Badge](https://img.shields.io/badge/LICENSE-MIT-red)
 ![Static Badge](https://img.shields.io/badge/NPM_VERSION-9.7.2-green)
 ![Static Badge](https://img.shields.io/badge/STATUS-DEVELOPING-yellow)
