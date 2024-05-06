@@ -6,24 +6,25 @@
 ## Change Language
 
 [![Brazilian Portuguese](/assets/img/br.png)](https://github.com/ericotoscano/ecdsa-node/blob/main/README-pt-br.md)
-## Índice
 
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Tecnologias Utilizadas](#tecnologias-utilizadas)
-* [Começando](#começando)
-* [Estrutura dos Arquivos](#estrutura-dos-arquivos)
-* [Instalação](#instalação)
-* [Funcionalidades](#funcionalidades)
-* [Implementações Futuras](#implementações-futuras)
-* [Licença](#licença)
-* [Contato](#contato)
+## Index
 
-## Descrição do Projeto
-Esse projeto faz parte das atividades desenvolvidas no [Ethereum Developer Bootcamp](https://www.alchemy.com/university/courses/ethereum), disponibilizado pela [Alchemy University](https://www.alchemy.com/university). Seu desenvolvimento tem por objetivo demonstrar conhecimentos básicos sobre transferências de ativos entre endereços, utilizando **_criptografia de chave pública_** e **_assinaturas digitais por meio do algoritmo de curvas elípticas_**.
+* [Project Description](#project-description)
+* [Used Techs](#used-techs)
+* [Starting](#starting)
+* [Files Structure](#files-structure)
+* [Installation](#installation)
+* [Functionalities](#funcionalities)
+* [Future Implementations](#future-implementations)
+* [License](#license)
+* [Contact](#contact)
 
-Uma vez que o foco da atividade é a utilização da criptografia na realização de transferências, a aplicação utiliza-se de um _servidor simples_ no **back-end**, em um _ambiente centralizado_. Entretanto, os conceitos criptográficos aplicados servem de base para compreensão do funcionamento de transações em **redes descentralizadas**, como o próprio [Ethereum](https://ethereum.org/pt-br/). 
+## Project Description
+This project is part of the activities developed at the [Ethereum Developer Bootcamp](https://www.alchemy.com/university/courses/ethereum), made available by [Alchemy University](https://www.alchemy.com/university) . Its development aims to demonstrate basic knowledge about asset transfers between addresses, using **_public key encryption_** and **_digital signatures using the elliptic curve algorithm_**.
 
-## Tecnologias Utilizadas
+Since the focus of the activity is the use of encryption to carry out transfers, the application uses a _simple server_ in the **back-end**, in a _centralized environment_. However, the cryptographic concepts applied serve as a basis for understanding how transactions work in **decentralized networks**, such as [Ethereum](https://ethereum.org/pt-br/).
+
+## Used Techs
 
 ![Javascript Badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Node Badge](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -32,26 +33,26 @@ Uma vez que o foco da atividade é a utilização da criptografia na realizaçã
 ![Vite Badge](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 ![Axios Badge](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)
 
-## Começando
+## Starting
 
-Para obter uma cópia do projeto em sua máquina, faça a _clonagem_ deste repositório através do **terminal**, utilizando o comando:
+To obtain a copy of the project on your machine, _clone_ this repository through the **terminal**, using the command:
 
 `git clone https://github.com/ericotoscano/ecdsa-node.git`
 
-## Estrutura dos Arquivos
+## Files Structure
 
-Após a _clonagem_ deste repositório, a estrutura dos arquivos será a seguinte:
+After _cloning_ this repository, the file structure will be as follows:
 
-![Estrutura dos arquivos do repositório clonado](/assets/img/folders.jpg)
+![Files structure of cloned repo](/assets/img/folders.jpg)
 
-Uma breve descrição dos conteúdos das pastas é feita nas seções a seguir:
+A brief description of the folder contents is provided in the following sections:
 
 <details>
   
 <summary>.vscode</summary>
 <br>
 
-Contém o arquivo [_launch.json_](/.vscode/launch.json), utilizado pelo [VsCode](https://code.visualstudio.com/) para configurar e personalizar o _depurador_.
+Contains the file [_launch.json_](/.vscode/launch.json), used by [VsCode](https://code.visualstudio.com/) to configure and customize the _debugger_.
 <br>
 </details>
 
@@ -60,7 +61,7 @@ Contém o arquivo [_launch.json_](/.vscode/launch.json), utilizado pelo [VsCode]
 <summary>assets</summary>
 <br>
 
-Contém a pasta [_img_](/assets/img), cujo conteúdo são as imagens utilizadas neste arquivo [README](/README.md).
+Contains the folder [_img_](/assets/img), whose contents are the images used in this file [README](/README.md).
 <br>
 </details>
 
@@ -68,9 +69,9 @@ Contém a pasta [_img_](/assets/img), cujo conteúdo são as imagens utilizadas 
 <summary>client</summary>
 <br>
 
-Contém arquivos e pastas relacionados ao _front-end_ (componentes [React](https://reactjs.org/) e arquivos do [Vite](https://vitejs.dev/)). 
+Contains files and folders related to _front-end_ ([React](https://reactjs.org/) components and [Vite](https://vitejs.dev/) files).
 
-O arquivo [_server.js_](/client/src/server.js) cria uma nova instância do [Axios](https://axios-http.com/).
+The file [_server.js_](/client/src/server.js) creates a new instance of [Axios](https://axios-http.com/).
 <br>
 </details>
 
@@ -78,9 +79,9 @@ O arquivo [_server.js_](/client/src/server.js) cria uma nova instância do [Axio
 <summary>server</summary>
 <br>
 
-Contém arquivos e pastas relacionados ao _back-end_ (em destaque, o arquivo [_index.js_](/server/index.js) contém a API utilizada pelo _front-end_ do projeto).
+Contains files and folders related to the _back-end_ (highlighted, the file [_index.js_](/server/index.js) contains the API used by the _front-end_ of the project).
 
-A pasta [_scripts_](/server/scripts) contém o arquivo [_generateusers.js_](/server/scripts/generateusers.js), que pode ser utilizado para gerar, randomicamente, os endereços dos usuários, suas respectivas chaves públicas e privadas, além dos seus respectivos saldos iniciais (100 unidades).
+The folder [_scripts_](/server/scripts) contains the file [_generateusers.js_](/server/scripts/generateusers.js), which can be used to randomly generate user addresses and their respective public and private keys , in addition to their respective initial balances (100 units).
 <br>
 </details>
 
@@ -88,7 +89,7 @@ A pasta [_scripts_](/server/scripts) contém o arquivo [_generateusers.js_](/ser
 <summary>LICENSE</summary>
 <br>
 
-Arquivo com o texto da licença _open source_ do projeto.
+File with the text of the project's _open source_ license.
 <br>
 </details>
 
@@ -96,41 +97,41 @@ Arquivo com o texto da licença _open source_ do projeto.
 <summary>README.md</summary>
 <br>
 
-Arquivo [README](/README.md) do projeto.
+Project [README](/README.md) file.
 <br>
 </details>
 
-## Instalação
+## Installation
 
-### Servidor
+### Server
 
-A pasta _server_ contém um servidor [Node.js](https://nodejs.org/pt-br), usando o [Express](https://expressjs.com/). Para iniciar o servidor, siga os passos a seguir:
+The _server_ folder contains a [Node.js](https://nodejs.org/pt-br) server, using [Express](https://expressjs.com/). To start the server, follow the steps below:
 
-1. Abra o terminal na pasta `/server`. 
-2. Execute o comando `npm install` para instalar todas as dependências. 
-3. Execute o comando `node index` ou `nodemon index` para iniciar o servidor. 
-4. Se não houver erros a aplicação deve conectar-se automaticamente à porta padrão do servidor (3042) e exibir a mensagem *"Listening on port 3042!"* no terminal. 
+1. Open the terminal in the `/server` folder.
+2. Run the `npm install` command to install all dependencies.
+3. Run the `node index` or `nodemon index` command to start the server.
+4. If there are no errors, the application should automatically connect to the server's default port (3042) and display the message *"Listening on port 3042!"* on the terminal.
 
-### Cliente
+### Client
 
-A pasta _client_ contém uma aplicação [React](https://reactjs.org/), usando o [Vite](https://vitejs.dev/). Para iniciar a aplicação, siga os passos a seguir:
+The _client_ folder contains a [React](https://reactjs.org/) application, using [Vite](https://vitejs.dev/). To start the application, follow the steps below:
 
-1. Abra o terminal na pasta `/client`.
-2. Execute o comando `npm install` para instalar todas as dependências.
-3. Execute o comando `npm run dev` para iniciar a aplicação.
-4. Se não houver erros, a aplicação estará disponível em http://127.0.0.1:5173/.
+1. Open the terminal in the `/client` folder.
+2. Run the `npm install` command to install all dependencies.
+3. Run the `npm run dev` command to start the application.
+4. If there are no errors, the application will be available at http://127.0.0.1:5173/.
 
-## Funcionalidades 
+## Functionalities
 
-- [x] Gerar usuários fictícios de forma aleatória.
-- [x] Checar o saldo de cada endereço disponível.
-- [x] Transferir quantias entre endereços disponíveis.
+- [x] Generate fictitious users at random.
+- [x] Check the balance of each available address.
+- [x] Transfer amounts between available addresses.
 
-Seguem algumas telas para apresentação de funcionalidades do projeto:
+Here are some screens to present the project’s features:
 
-### Gerando os usuários
+### Generating users
 
-Executando o arquivo [_generateusers.js_](/server/scripts/generateusers.js) para gerar os usuários da aplicação (as chaves expostas *não* são vinculadas a endereços reais da rede [Ethereum](https://ethereum.org/pt-br/)):   
+Running the file [_generateusers.js_](/server/scripts/generateusers.js) to generate the application users (the exposed keys are *not* linked to real addresses on the [Ethereum](https://ethereum.org/) network pt-br/)):  
 
 <img src="/assets/img/generateusers.jpg">
 
