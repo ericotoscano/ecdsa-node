@@ -5,7 +5,7 @@
 
 ## Trocar Idioma
 
-[![English](/assets/img/us.png)](https://github.com/ericotoscano/ecdsa-node/edit/main/README.md)
+[![English](/assets/img/us.png)](https://github.com/ericotoscano/ecdsa-node/main/README.md)
 
 ## Índice
 
