@@ -5,8 +5,7 @@
 
 ## Change Language
 
-[![Brazilian Portuguese](/assets/img/br.png)](https://github.com/ericotoscano/ecdsa-node/edit/main/README-pt-br.md)
-
+[![Brazilian Portuguese](/assets/img/br.png)](https://github.com/ericotoscano/ecdsa-node/blob/main/README-pt-br.md)
 ## Índice
 
 * [Descrição do Projeto](#descrição-do-projeto)
