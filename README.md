@@ -3,6 +3,11 @@
 ![Static Badge](https://img.shields.io/badge/NPM_VERSION-9.7.2-green)
 ![Static Badge](https://img.shields.io/badge/STATUS-DEVELOPING-yellow)
 
+## Idioma
+
+[!(/assets/img/brasil.png)](https://github.com/ericotoscano/ecdsa-node/edit/main/README-pt-br.md)
+[!(/assets/img/estados-unidos.png)](https://github.com/ericotoscano/ecdsa-node/edit/main/README-en.md)
+
 ## Índice
 
 * [Descrição do Projeto](#descrição-do-projeto)
