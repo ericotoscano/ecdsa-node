@@ -49,15 +49,6 @@ A brief description of the folder contents is provided in the following sections
 
 <details>
   
-<summary>.vscode</summary>
-<br>
-
-Contains the file [_launch.json_](/.vscode/launch.json), used by [VsCode](https://code.visualstudio.com/) to configure and customize the _debugger_.
-<br>
-</details>
-
-<details>
-  
 <summary>assets</summary>
 <br>
 
