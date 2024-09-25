@@ -1,4 +1,4 @@
-#  Algoritmo de Assinatura Digital de Curvas Elípticas (AADCE) Node App
+#  Aplicação Node do Algoritmo de Assinatura Digital de Curvas Elípticas (AADCE) 
 ![Static Badge](https://img.shields.io/badge/LICENSE-MIT-red)
 ![Static Badge](https://img.shields.io/badge/NPM_VERSION-9.7.2-green)
 
