@@ -1,7 +1,6 @@
 #  Elliptic Curve Digital Signature Algorithm Node App
 ![Static Badge](https://img.shields.io/badge/LICENSE-MIT-red)
 ![Static Badge](https://img.shields.io/badge/NPM_VERSION-9.7.2-green)
-![Static Badge](https://img.shields.io/badge/STATUS-DEVELOPING-yellow)
 
 ## Change Language
 
@@ -126,48 +125,47 @@ Running the file [_generateusers.js_](/server/scripts/generateusers.js) to gener
 
 <img src="/assets/img/generateusers.jpg">
 
-### Tela Inicial
+### Home Screen
 <img src="/assets/img/start.jpg">
 
-### Checando Saldo de um Endereço Disponível
+### Checking an Available Address Balance
 
 <img src="/assets/img/balance-ok.jpg">
 
-A aplicação somente permite que os endereços disponíveis sejam *copiados* e *colados* no *input* da carteira. Caso o usuário tente *digitar* ou *colar* um endereço que não esteja disponível, o saldo *não* será apresentado e a aplicação emitirá o seguinte alerta:
+The application only allows available addresses to be *copied* and *pasted* into the *input* of the wallet. If the user tries to *type* or *paste* an address that is not available, the balance will *not* be displayed and the application will issue the following alert:
 
 <img src="/assets/img/balance-fail.jpg">
 
-### Transferindo Quantias entre Endereços
+### Transferring Amounts Between Addresses
 
-Para efetuar uma transferência, ao clicar no botão *Transfer*, o endereço do *sender* deve ser o mesmo que está *colado* no campo *Address* da carteira.   
+To make a transfer, when you click on the *Transfer* button, the address of the *sender* must be the same as the one *pasted* in the *Address* field of the wallet.   
 
-Efetuando a transferência e checando o saldo do *sender* após a transferência:
+Making the transfer and checking the *sender's* balance after the transfer:
 
 <img src="/assets/img/exec-transfer.jpg">
 
-Checando o saldo do *recipient* após a transferência:
+Checking the *recipient* balance after the transfer:
 
 <img src="/assets/img/exec-transfer2.jpg">
 
-Caso o endereço do *sender* não possua saldo suficiente para que a transação seja efetuada, a transferência *não* será efetuada e a aplicação emitirá o seguinte alerta:  
+If the *sender's* address does not have a sufficient balance for the transaction to take place, the transfer will *not* take place and the application will issue the following warning:    
 
 <img src="/assets/img/transfer-fail2.jpg">
 
-Caso o endereço *colado* no campo *Address* da carteira não seja o mesmo endereço do *sender*, a transferência *não* será efetuada e a aplicação emitirá o seguinte alerta:  
+If the address *entered* in the wallet's *Address* field is not the same as the *sender's* address, the transfer will *not* go through and the application will issue the following warning: 
 
 <img src="/assets/img/transfer-fail1.jpg">
 
-## Implementações Futuras
+## Future Implementations
 
-- Melhoramentos em UX/UI.
-- Adição de Testes automatizados.
-- Documentação dos endpoints da API no servidor.
+- Adding automated tests.
+- Documentation of API endpoints on the server.
 
-## Licença
+## License
 
-Distribuído sob a licença MIT (para maiores informações, acesse o arquivo [LICENSE](/LICENSE)).
+Distributed under the MIT license (for more information, go to [LICENSE](/LICENSE)).
 
-## Contato
+## Contact
 
 <img align="left" src="/assets/img/me.png" width="73px" alt="Érico Toscano de Oliveira">
 
