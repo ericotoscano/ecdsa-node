@@ -1,7 +1,6 @@
-#  Elliptic Curve Digital Signature Algorithm (ECDSA) Node App
+#  Algoritmo de Assinatura Digital de Curvas Elípticas (AADCE) Node App
 ![Static Badge](https://img.shields.io/badge/LICENSE-MIT-red)
 ![Static Badge](https://img.shields.io/badge/NPM_VERSION-9.7.2-green)
-![Static Badge](https://img.shields.io/badge/STATUS-DEVELOPING-yellow)
 
 ## Trocar Idioma
 
@@ -168,7 +167,6 @@ Caso o endereço *colado* no campo *Address* da carteira não seja o mesmo ender
 
 ## Implementações Futuras
 
-- Melhoramentos em UX/UI.
 - Adição de Testes automatizados.
 - Documentação dos endpoints da API no servidor.
 
