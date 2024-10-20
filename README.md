@@ -121,7 +121,7 @@ Here are some screens to present the project’s features:
 
 ### Generating users
 
-Running the file [_generateusers.js_](/server/scripts/generateusers.js) to generate the application users (the exposed keys are *not* linked to real addresses on the [Ethereum](https://ethereum.org/) network pt-br/)):  
+Running the file [_generateusers.js_](/server/scripts/generateusers.js) to generate the application users (the exposed keys are *not* linked to real addresses on the [Ethereum](https://ethereum.org/) network)  
 
 <img src="/assets/img/generateusers.jpg">
 
